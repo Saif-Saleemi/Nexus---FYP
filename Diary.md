@@ -13,3 +13,7 @@ Monday 3rd October - Using Mat Buckland's book ' Programming Game AI by Example'
 2. Goal-Driven Agent Behavior
 
 Tuesday 4th October - Prepared for meeting with supervisor the following day, sending ahead the project plan and questions I would like answered
+
+Wednesday 5th October - Conducted meeting with supervisor, taking notes on advice for my project plan.
+
+Thursday 6th October - Updated Project Plan to fit in line with advice given by supervisor and submitted Project plan. Will commence research on State-agent driven design starting 7th October and will follow the project plan timeline from there.
