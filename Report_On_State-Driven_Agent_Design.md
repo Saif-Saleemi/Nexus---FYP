@@ -3,7 +3,7 @@
 1. Why are Finite State Machines Useful In Game Design?
 2. How Can Finite State Machines be Implemented in Game Design?
 
-<h4>After These questions have been answered we will delve deeper into Examples of Finite State Machines in games and how to apply this knowledge to Nexus.</h4>
+<h4>After These questions have been answered we will delve deeper into the code structure of Finite State Machines in games and apply this knowledge to Nexus.</h4>
 
 <h2>Why are Finite State Machines (FSMs) Useful in Game Design?</h2>
 
