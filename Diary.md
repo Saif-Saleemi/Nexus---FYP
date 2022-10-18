@@ -36,4 +36,4 @@ Using *Game Programming Patterns* by Robert Nystrom
 - Research and Produce a report on Behavioral Patterns (Chapter 4)
 - Further My understanding of the Unity Editor by Watching *Learn Unity* by Imphenzia
 
-
+Tuesday 18th October 13:00 - 14:00 - Read through The doublebuffer pattern and took notes
