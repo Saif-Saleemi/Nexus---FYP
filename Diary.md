@@ -28,13 +28,20 @@ Saturday 15th October - Completed The Report for Chapter 2     3 days after dead
 
 Saturday 15th October - Begun Research on Sequencing Patterns
 
-Goals for Week 5: 
+<b>Goals for Week 5:</b>
 
 Using *Game Programming Patterns* by Robert Nystrom
 
 - Research and Produce a report on Sequencing Patterns (Chapter 3)
 - Research and Produce a report on Behavioral Patterns (Chapter 4)
-- Further My understanding of the Unity Editor by Watching *Learn Unity* by Imphenzia
 
-Tuesday 18th October - Read through The doublebuffer pattern and took notes
-Wednesday 19th October - Read tahrough Game Loop and Update method and took notes
+Tuesday 18th October - Read through The doublebuffer pattern and took notes<br>
+Wednesday 19th October - Read tahrough Game Loop and Update method and took notes<br>
+Friday 21st October - Read through Behavioral Patterns and took notes<br>
+Monday 24th October - Completed report on Behavioral patterns and Sequencing patterns (3 days Behind deadline!!)<br>
+
+<b>Goals for Week 6:</b> <br>
+Using  *Programming Game AI by Example* (Mat Buckland) and *Game Programming Patterns* (Robert Nystrom)<br>
+- Research and Produce a report on Goal-Driven Agent Behavior (Chapter 9)
+- Research and Produce a report on Decoupling Patterns (Chapter 5)
+
