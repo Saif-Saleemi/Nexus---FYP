@@ -74,3 +74,6 @@ Overall we have gained some insight into FSMs and can see how to implement them 
 - FSM #5 *Attack* - Can have different states for the Attack (Usable, NotUsuable, etc.)
 
 
+<h5>Reference:</h5> Chapter 2 of Programming Game AI by Example - Mat Buckland
+
+
