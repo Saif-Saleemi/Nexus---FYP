@@ -45,3 +45,4 @@ Using  *Programming Game AI by Example* (Mat Buckland) and *Game Programming Pat
 - Research and Produce a report on Goal-Driven Agent Behavior (Chapter 9)
 - Research and Produce a report on Decoupling Patterns (Chapter 5)
 
+Thursday 27th October - Completed report on Goal-Driven Agent Behavior
