@@ -45,11 +45,11 @@ If the object creates its own components:<br>
  single receive method that component classes implement in order to listen to a incoming message. Then
  can add a send method in our containerobject. now if a component has access to its container, it can send
  messages to the container, which will rebroadcast the message to all contained components.<br>
- 2.Ensures the components are decoupled from each other, the only coupling being the message value.<br>
- 3.Container object is simple, all it does is blindly pass messages along.<br>
+ 2. Ensures the components are decoupled from each other, the only coupling being the message value.<br>
+ 3. Container object is simple, all it does is blindly pass messages along.<br>
 <b>Summary</b><br>
 The unity framework core GameObject class is designed entirely around the component pattern. This pattern is a good option to consider during production of Nexus, 
-it can be used you decouple userinput code from a main class, for example the userinput with their fighter.
+it can be used you decouple userinput code from a main class, for example the userinput with their fighter.<br><br>
 <h3>Event Queue</h3>
 <b>Primary Objective:</b><br>Decouple when a message or event is sent from when it is processed.<br>
 <b>Motivation: </b> <br>
@@ -76,25 +76,25 @@ An event is something that has already happened<br>
 2. Scope of the queue tends to be broader (more globally visible)<br><br>
 If you queue messages:<br>
 message describes an action that we want to happen in the future<br>
-1.More likely to have a single listener<br><br>
+1. More likely to have a single listener<br><br>
 <b>Who can read from the queue?</b><br><br>
 A Single-cast Queue:<br>
-1.Queue becomes an implementation details of the reader<br>
+1. Queue becomes an implementation details of the reader<br>
 2. Queue is more encapsulated<br>
 3. Don't have to worry about contention between listeners<br><br>
 A Broadcast Queue:<br>
-1.Events can be disregarded (if there are 0 listeners)<br>
-2.May need to filter events to reduce amount of event handlers to invoke<br><br>
+1. Events can be disregarded (if there are 0 listeners)<br>
+2. May need to filter events to reduce amount of event handlers to invoke<br><br>
 A Work Queue:<br>
-1.You have to schedule, since an item only goes to one listener queue needs logic
+1. You have to schedule, since an item only goes to one listener queue needs logic
 to figure out the best one to choose.<br><br>
 <b>Who can write to the Queue?</b><br><br>
 One Writer:<br>
-1.Implicitly know where the event is coming from<br>
-2.Usually allow multiple readers otherwise it will just feel like a basic queue<br><br>
+1. Implicitly know where the event is coming from<br>
+2. Usually allow multiple readers otherwise it will just feel like a basic queue<br><br>
 Multiple Writers:<br>
-1.Have to be more careful of cycles because a feedback loop can occur<br>
-2.Likely want to reference to the sender in the event itself, since there are multiple writers,
+1. Have to be more careful of cycles because a feedback loop can occur<br>
+2. Likely want to reference to the sender in the event itself, since there are multiple writers,
 reader needs to know who sent the event.<br>
 <b>Summary:</b><br>
 Event Queue pattern is a good way to decouple when we want decoupling to happen. This can be useful in the creation of Nexus, for example for adding a tutorial where
