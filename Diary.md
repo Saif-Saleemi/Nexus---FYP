@@ -46,3 +46,9 @@ Using  *Programming Game AI by Example* (Mat Buckland) and *Game Programming Pat
 - Research and Produce a report on Decoupling Patterns (Chapter 5)
 
 Thursday 27th October - Completed report on Goal-Driven Agent Behavior
+
+Friday 4th November - Completed report on Decoupling Patterns
+Saturday 6th November - Completed report on Optimisation Patterns
+
+<b>Goals for Week 7:</b> <br>
+Finish PoC #1 and #2 in Unity
