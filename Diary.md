@@ -52,3 +52,5 @@ Saturday 6th November - Completed report on Optimisation Patterns
 
 <b>Goals for Week 7:</b> <br>
 Finish PoC #1 and #2 in Unity
+
+Monday 8th November - Completed PoC #1
