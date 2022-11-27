@@ -54,3 +54,10 @@ Saturday 6th November - Completed report on Optimisation Patterns
 Finish PoC #1 and #2 in Unity
 
 Monday 8th November - Completed PoC #1
+
+<b>Goals for Week 8 and 9:</b> <br>
+Monday 21st November - Installed and learnt how to use Blender to create 3d models.
+Thursday 24th November - Completed PoC #2 
+
+<b>Goals for Week 10:</b> <br>
+Complete PoC #3 and prepare interim report
