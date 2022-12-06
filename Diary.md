@@ -63,3 +63,7 @@ Thursday 24th November - Completed PoC #2
 Complete PoC #3 and prepare interim report
 
 Tuesday 29th - Implemented a menu that contains an options menu and a transition into  'level 1' (Early Deliverable)
+
+Saturday 3rd December - Implemented turn-based combat
+
+Sunday 4th/Monday 5th - Completed and submitted presentation AND finished the early deliverable making the final build ready for submission.
