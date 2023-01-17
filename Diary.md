@@ -67,3 +67,9 @@ Tuesday 29th - Implemented a menu that contains an options menu and a transition
 Saturday 3rd December - Implemented turn-based combat
 
 Sunday 4th/Monday 5th - Completed and submitted presentation AND finished the early deliverable making the final build ready for submission.
+
+<b>Goals for Week 2 Term 2 (16/01/23):</b> <br>
+Expand number of fighters
+Create new prefabs for fighters
+Create 5 background scenes
+Modify level 1 from the Early Deliverable to incorporate background scene and stronger AI
