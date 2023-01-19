@@ -73,3 +73,5 @@ Expand number of fighters
 Create new prefabs for fighters
 Create 5 background scenes
 Modify level 1 from the Early Deliverable to incorporate background scene and stronger AI
+
+Tuesday 17th Jan - Created 10 base fighters, 5 fighter classes. All fighters inherit 2 basic moves, class specific move and a fighter specific move.
