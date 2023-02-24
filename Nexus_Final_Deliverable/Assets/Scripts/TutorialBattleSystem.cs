@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST}
 
-public class BattleSystem : MonoBehaviour
+public class TutorialBattleSystem : MonoBehaviour
 {
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
@@ -19,7 +19,6 @@ public class BattleSystem : MonoBehaviour
     public BattleHUD enemyHUD;
 
     public TextMeshProUGUI playerDialogue;
-    public TextMeshProUGUI enemyDialogue;
 
     Unit playerUnit;
     Unit enemyUnit;
