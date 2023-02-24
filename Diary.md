@@ -75,3 +75,15 @@ Create 5 background scenes
 Modify level 1 from the Early Deliverable to incorporate background scene and stronger AI
 
 Tuesday 17th Jan - Created 10 base fighters, 5 fighter classes. All fighters inherit 2 basic moves, class specific move and a fighter specific move.
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Wednesday 25th Jan - Improved UI of Main menu and added panel for level selection
+
+Wednesday 1st Feburary - Tested Stronger AI for tutorial level, and begun work on creating unique AI for specific fighters
+
+Friday 17th Feburary - Reworked the BattleSystem, Creating a TutorialBattleSystem for the basic fighter prefabs and a more advanced battlesystem to be used in the future
+
+Friday 24th Feburary - Begun work on Level 1 with unique AI adversary for that specific level.
+
