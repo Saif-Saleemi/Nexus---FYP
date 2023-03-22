@@ -87,3 +87,15 @@ Friday 17th Feburary - Reworked the BattleSystem, Creating a TutorialBattleSyste
 
 Friday 24th Feburary - Begun work on Level 1 with unique AI adversary for that specific level.
 
+March 6th - Extended the BattleSystem to facilitate multiple moves from the newly introduced fighters
+
+
+March 10th - Implemented AI using FSM for Level 1
+
+March 15th - Added AI for Level 2 changing initial state to change behaviour
+
+March 16th - Edited BattleSystem, making the Game able to easily create multiple unique levels which can be added at the end if there is time
+
+
+March 22nd - Got extension due to circumstances with illness, begun Finalizing report.
+
