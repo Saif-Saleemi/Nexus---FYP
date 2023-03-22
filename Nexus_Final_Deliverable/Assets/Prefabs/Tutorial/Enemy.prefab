@@ -106,9 +106,6 @@ MonoBehaviour:
   move3: 
   ultimate: 
   unitStance: 0
-  classMove: {fileID: 0}
-  ultimateMove: {fileID: 0}
-  healMove: {fileID: 0}
 --- !u!1 &1154285417484985971
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,8 +115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1967801269551332553}
-  - component: {fileID: 2094235776972736204}
-  - component: {fileID: 7334711112553561946}
+  - component: {fileID: -6785524630578692658}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -144,7 +140,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &2094235776972736204
+--- !u!114 &-6785524630578692658
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,36 +149,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1154285417484985971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f01f0aa428fefaf45ae622a52027d907, type: 3}
+  m_Script: {fileID: 11500000, guid: 88cd3b90178ab7347bc16c16da3d8549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Enemy
   damage: 100
   type: 
-  maxHP: 300
-  currentHP: 300
-  armor: 20
+  maxHP: 250
+  currentHP: 250
+  armor: 5
   healingCast: 0
   move3: 
   ultimate: 
   unitStance: 1
-  classMove: {fileID: 0}
-  ultimateMove: {fileID: 0}
-  healMove: {fileID: 7334711112553561946}
---- !u!114 &7334711112553561946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154285417484985971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edba5b04b3b8e3f41a7dc0654c5b905d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cooldown: 2
-  moveName: Heal
+  useStrike: 0
+  useHeal: 0
+  useTypeMove: 0
+  useUltimate: 0
 --- !u!1 &2030241328954445134
 GameObject:
   m_ObjectHideFlags: 0

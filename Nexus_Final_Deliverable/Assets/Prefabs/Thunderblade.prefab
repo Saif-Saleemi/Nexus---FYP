@@ -92,7 +92,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8949383144286307129}
-  - component: {fileID: -7463417524785967246}
+  - component: {fileID: 2951620384835875985}
+  - component: {fileID: 4897837122426917688}
   m_Layer: 0
   m_Name: Thunderblade
   m_TagString: Untagged
@@ -107,7 +108,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8608991470621137283}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.3826836, z: -0, w: -0.92387944}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -116,8 +117,8 @@ Transform:
   - {fileID: 2609803622838832526}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7463417524785967246
+  m_LocalEulerAnglesHint: {x: 0, y: 315, z: 0}
+--- !u!114 &2951620384835875985
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +127,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8608991470621137283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f01f0aa428fefaf45ae622a52027d907, type: 3}
+  m_Script: {fileID: 11500000, guid: 88cd3b90178ab7347bc16c16da3d8549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Thunderblade
@@ -134,11 +135,28 @@ MonoBehaviour:
   type: Electric
   maxHP: 400
   currentHP: 400
-  armor: 0
-  healingCast: 0
-  move3: 
-  ultimate: 
-  unitStance: 0
+  armor: 25
+  healingCast: 75
+  move3: Charge
+  ultimate: ThunderStrike
+  unitStance: 1
+  useStrike: 0
+  useHeal: 0
+  useTypeMove: 0
+  useUltimate: 0
+--- !u!114 &4897837122426917688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608991470621137283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab6bfddbc025d9498c24157c6a2ce81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialState: {fileID: 11400000, guid: 3e547f11250468148ab0ff90d1ac34a0, type: 2}
 --- !u!1 &8885969175026283198
 GameObject:
   m_ObjectHideFlags: 0

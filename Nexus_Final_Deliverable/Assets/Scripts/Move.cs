@@ -8,11 +8,12 @@ public class Move : MonoBehaviour
     public string moveName;
     private bool active = true;
     private int counter = 0;
-
-    public Move(int cooldown, string name)
+    private string moveType;
+    public Move(int cooldown, string name, string type)
     {
         this.cooldown = cooldown;
         this.moveName = name;
+        this.moveType = type;
     }
     
     public void decreaseCooldown()
@@ -35,6 +36,12 @@ public class Move : MonoBehaviour
     {
         get { return active; }
         set { active = value; }
+    }
+
+    public string MoveType
+    {
+        get { return moveType; }
+        set { moveType = value; }
     }
 
 

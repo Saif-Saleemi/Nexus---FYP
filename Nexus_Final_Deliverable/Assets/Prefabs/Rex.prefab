@@ -137,11 +137,8 @@ MonoBehaviour:
   armor: 15
   healingCast: 70
   move3: Counter
-  ultimate: Barrage
+  ultimate: Cripple
   unitStance: 1
-  classMove: {fileID: 0}
-  ultimateMove: {fileID: 0}
-  healMove: {fileID: 0}
 --- !u!1 &8885969175026283198
 GameObject:
   m_ObjectHideFlags: 0

@@ -92,7 +92,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8949383144286307129}
-  - component: {fileID: -7463417524785967246}
+  - component: {fileID: 622272336793689109}
+  - component: {fileID: -917652216497629633}
   m_Layer: 0
   m_Name: Sharky
   m_TagString: Untagged
@@ -117,7 +118,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 315, z: 0}
---- !u!114 &-7463417524785967246
+--- !u!114 &622272336793689109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +127,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 8608991470621137283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f01f0aa428fefaf45ae622a52027d907, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ab6bfddbc025d9498c24157c6a2ce81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialState: {fileID: 11400000, guid: 74f0ae2c8357d234687b99d192250aa1, type: 2}
+--- !u!114 &-917652216497629633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608991470621137283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cd3b90178ab7347bc16c16da3d8549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Sharky
@@ -136,9 +150,13 @@ MonoBehaviour:
   currentHP: 650
   armor: 20
   healingCast: 100
-  move3: 
-  ultimate: 
+  move3: Hydroburst
+  ultimate: Drown
   unitStance: 1
+  useStrike: 0
+  useHeal: 0
+  useTypeMove: 0
+  useUltimate: 0
 --- !u!1 &8885969175026283198
 GameObject:
   m_ObjectHideFlags: 0

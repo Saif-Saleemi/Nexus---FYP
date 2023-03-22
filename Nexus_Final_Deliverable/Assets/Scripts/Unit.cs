@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Stance {REFLECT, IDLE}
+public enum Stance {REFLECT, IDLE, STUN}
 public class Unit : MonoBehaviour
 {
     public string unitName;
@@ -18,6 +18,7 @@ public class Unit : MonoBehaviour
     private Move classMove;
     private Move ultimateMove;
     private Move healMove;
+    private Move baseMove;
 
 
 
@@ -36,13 +37,19 @@ public class Unit : MonoBehaviour
         get { return healMove; }
         set { healMove = value; }
     }
+    public Move BaseMove
+    {
+        get { return baseMove; }
+        set { baseMove = value; }
+    }
 
 
     public void setMoves()
     {
-        this.classMove = new Move(3,move3);
-        this.ultimateMove = new Move(4,ultimate);
-        this.healMove = new Move(2,"Heal");
+        this.classMove = new Move(3,move3, "Defend");
+        this.ultimateMove = new Move(4,ultimate, "Attack");
+        this.healMove = new Move(2,"Heal", "Defend");
+        this.baseMove = new Move(1, "Strike", "Attack");
     }
 
 
@@ -51,6 +58,7 @@ public class Unit : MonoBehaviour
         this.classMove.decreaseCooldown();
         this.ultimateMove.decreaseCooldown();
         this.healMove.decreaseCooldown();
+        this.baseMove.decreaseCooldown();
     }
     public bool TakeDamage(int trueDmg)
     {
@@ -81,6 +89,26 @@ public class Unit : MonoBehaviour
 
             unitStance = Stance.REFLECT;
             classMove.Active = false;
+        }
+        else if (playerType == "Water")
+        {
+            armor += 10;
+            classMove.Active = false;
+        }
+        else if (playerType == "Electric")
+        {
+            healingCast += 25;
+            Heal(50);
+            classMove.Active = false;
+        }
+    }
+
+    public void Ultimate(string playerName)
+    {
+        if (playerName == "Rex")
+        {
+            damage += 15;
+            ultimateMove.Active = false;
         }
     }
 
