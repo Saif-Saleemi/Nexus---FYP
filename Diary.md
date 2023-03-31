@@ -96,6 +96,8 @@ March 15th - Added AI for Level 2 changing initial state to change behaviour
 
 March 16th - Edited BattleSystem, making the Game able to easily create multiple unique levels which can be added at the end if there is time
 
+March 19th - Completed Implementation of Game
 
 March 22nd - Got extension due to circumstances with illness, begun Finalizing report.
+March 30th - Fully Completed Report
 
